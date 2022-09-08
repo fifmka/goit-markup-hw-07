@@ -17,20 +17,13 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-
-}
-&__link:hover,
-&__link:focus {
+    &:hover,
+    &:focus {
     color: $accentColor;
-}
+}}
 
 &__icon {
     margin-right: 10px;
     fill: currentColor;
 }
 }
-
-
-
-
-

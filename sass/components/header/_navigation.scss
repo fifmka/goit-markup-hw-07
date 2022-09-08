@@ -12,8 +12,7 @@
 .navigation {
     display: flex;
 
-    &__item:not(:last-child)
-    {
+&__item:not(:last-child){
     margin-right: 50px;
     }
 &__link {
@@ -30,7 +29,10 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-}
+    &:hover,
+    &:focus {
+    color: $accentColor;
+}}
 &__link--current{
     color: $accentColor;
 }
@@ -46,8 +48,4 @@
     height: 4px;
     background: $accentColor;
     border-radius: 2px;
-}
-&__link:hover,
-&__link:focus {
-    color: $accentColor;
 }}
