@@ -1,0 +1,24 @@
+.logo {
+    font-family: $logo, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    margin-right: 93px;
+    color: $accentColor;
+
+    &__accent{
+    @extend .logo;
+    color: $logoColor;}
+}
+
+.wrapper-logo {
+    margin-bottom: 20px;
+}
+.footer-logo{
+    @extend .logo;
+    margin-right: 0;
+&--accent {
+        color: $whiteTextColor;
+    }
+}
+

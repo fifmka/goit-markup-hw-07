@@ -1,0 +1,36 @@
+
+.specialty {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+&__list {
+        display: flex;
+        gap: 30px;
+    }
+
+&__item {
+    width: calc((100% - 90px)/4);
+}
+&__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 120px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    background-color: $additionalBgColor;
+}
+&__title {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+&__text {
+    color: $paragraphColor;
+    line-height: 1.71;
+}
+
+}
